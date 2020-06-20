@@ -1,0 +1,5 @@
+{
+    "APP_NAME": "S3_Upload",
+    "IMPORT_BUCKET_NAME": "",
+    "AUDIT_TABLE_NAME": ""
+}

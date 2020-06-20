@@ -1,0 +1,18 @@
+{
+  "name": "file-upload-lambda",
+  "version": "1.0.0",
+  "description": "Lambda to upload files to S3",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "leew",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.701.0",
+    "bunyan": "^1.8.12",
+    "config": "^3.3.1"
+  }
+}
