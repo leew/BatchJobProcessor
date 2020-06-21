@@ -6,7 +6,7 @@ const logger = require('./lib/logger').child('handler');
 exports.handler = async (event) => {
     
     try {
-        if (!requestValidator.validate(event)) {
+        if (!requestValidator(event)) {
             logger.info('Received invalid request returning 400');
             return {
                 statusCode: 400
